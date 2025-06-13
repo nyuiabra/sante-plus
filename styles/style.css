@@ -152,15 +152,7 @@ li{
   padding: 20px 0;
   
 }
-.menu-footer>ul>li>a{
-    color: black;
-    text-decoration: none;
-    list-style: none;
-    justify-content: space-between;
-}
-footer{
-    background-color: #2E46A3;
-}
+
 .line>p{
 align-items: center;
 text-align: center;
@@ -180,6 +172,69 @@ background-color: #2E46A3;
  transition: transform 0.3s ease;
   transform: translateY(1px);
 }
+
+footer {
+    background-color: #1a3d99; /* bleu foncé */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0 50px;
+    margin-bottom: 20px;
+}
+.footer-logo img {
+    width: 60px;
+    height: auto;
+}
+
+.footer-column {
+    margin: 10px;
+    text-align: left;
+}
+
+.footer-column h3 {
+    text-transform: lowercase;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin: 5px 0;
+}
+
+.footer-column ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    width: 90%;
+    border: 1px solid #000000;
+    margin: 0 auto 10px auto;
+}
+h3{
+    color:#000000;
+}
+
+.footer-bottom p {
+    font-size: 0.9em;
+    margin: 0;
+    color: #000000;
+    }
 /************************ contact css **********************/
 .first-contact h1 {
     text-align: center;
@@ -260,3 +315,18 @@ button {
 
    
 }
+/************************************ responsive design ***************************************************************/
+@media screen   and ( max-width : 430px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: inter-regular;
+    box-sizing: border-box;
+  }
+
+    }
+
+    
+    
+
