@@ -315,7 +315,7 @@ button {
 
    
 }
-/************************************ responsive design ***************************************************************/
+/************************************ iphone 14 PRO responsive design ***************************************************************/
 @media screen   and ( max-width : 430px){
 
     *{
@@ -397,14 +397,69 @@ header{
 
 .row input {
   flex: 1;
-  padding: 10px;
+  padding: 2px;
   background-color: #3182ce;
   color: white;
   border: none;
   border-radius: 5px;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+}
+/************************************ Ipad ***************************************************************/
+
+@media screen  and (max-width :820px){
+
+      *{
+        margin: 0;
+        padding: 0;
+        font-family: inter-regular;
+    box-sizing: border-box;
+  }
+@font-face {
+    font-family: inter-regular;
+    src: url(../assets/fonts/inter/Inter_18pt-Regular.ttf);
 }
 
+.banner {
+    background: url(../images/img1.jpg ) center center/cover no-repeat;
+    width: 750px;
+    height: 400px;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+.grid-1{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:4px;
+    text-align: center;
+    margin:0 30px;
+    margin-top: 30px;
+}
+
+.information{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    gap:40px;
+    margin-left: 30px;
+}
+.information-image img{
+    width: 400px;
+    height: 200px;
+}
+.menu-button{
+margin-left: 30px;
+padding: 2px 2px;
+} 
+
+
+}
     
     
 
