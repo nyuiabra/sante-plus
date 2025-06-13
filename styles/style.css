@@ -324,8 +324,86 @@ button {
         font-family: inter-regular;
     box-sizing: border-box;
   }
+@font-face {
+    font-family: inter-regular;
+    src: url(../assets/fonts/inter/Inter_18pt-Regular.ttf);
+}
 
-    }
+.top-tiny-bar{
+    display: flex;
+    flex-direction: column;
+    background-color: #2E46A3;
+    padding: 1px 0;
+
+   
+}
+
+
+.top-tiny-bar  ul {
+      align-items: center;
+    justify-content: center;
+    padding :2px 60px ;
+
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-button>button{
+    padding:5px 10px;
+    border-radius: 10px;
+    background-color: #418BC0;
+    border: none;
+   margin-left: 100px;
+}
+
+.banner {
+    background: url(../images/img1.jpg ) center center/cover no-repeat;
+    width: 400px;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+.grid-1{
+    display:grid;
+    grid-template-columns: 1fr ;
+    gap:10px;
+    text-align: center;
+    margin:0 40px;
+    margin-top: 30px;
+}
+
+.information{
+    display: grid;
+    grid-template-columns: 1fr ;
+    margin-top: 50px;
+    gap:40px;
+    margin-left: 0;
+}
+
+.form-container {
+  background-color: white;
+  padding: 30px;
+  border: 1px solid #ccc;
+  width: 430px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-top: 30px;
+  margin-left: 0;
+ 
+}
+
+.row input {
+  flex: 1;
+  padding: 10px;
+  background-color: #3182ce;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+}
 
     
     
